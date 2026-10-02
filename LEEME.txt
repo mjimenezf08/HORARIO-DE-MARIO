@@ -1,0 +1,13 @@
+HORARIO SMR - APP DE ESCRITORIO
+===============================
+Requisito: Node.js 18 o superior (https://nodejs.org)
+
+1) Abre una terminal DENTRO de esta carpeta.
+2) npm install
+3) npm start          -> prueba la app
+4) npm run dist       -> crea el instalador en la carpeta "dist":
+     Ubuntu/Linux: .AppImage y .deb   (instalar: sudo apt install ./dist/*.deb)
+     Windows:      .exe               (hay que ejecutarlo en un PC con Windows)
+
+Al cerrar la ventana, la app se queda en la bandeja del sistema para seguir
+enviando avisos. Para cerrarla del todo: clic derecho en el icono -> "Salir del todo".

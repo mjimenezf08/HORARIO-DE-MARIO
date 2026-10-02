@@ -1,0 +1,23 @@
+{
+  "name": "horario-smr",
+  "version": "1.0.0",
+  "description": "Horario, calendario y deberes de 2º SMR",
+  "main": "main.js",
+  "author": "Mario",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.horariosmr.app",
+    "productName": "Horario SMR",
+    "files": ["main.js", "index.html", "icon-192.png", "icon-512.png"],
+    "icon": "icon-512.png",
+    "linux": { "target": ["AppImage", "deb"], "category": "Education", "maintainer": "Mario <mario@example.com>" },
+    "win": { "target": "nsis" }
+  }
+}
